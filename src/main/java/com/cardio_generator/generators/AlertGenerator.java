@@ -4,6 +4,7 @@ import java.util.Random;
 
 import com.cardio_generator.outputs.OutputStrategy;
 
+
 public class AlertGenerator implements PatientDataGenerator {
     // Changed randomGenerator from public to private to restrict access (Google Java Style Guide)
     private static final Random randomGenerator = new Random();
